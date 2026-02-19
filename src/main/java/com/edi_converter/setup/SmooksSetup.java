@@ -2,10 +2,10 @@ package com.edi_converter.setup;
 
 import org.smooks.Smooks;
 import org.smooks.api.ExecutionContext;
-import org.smooks.io.payload.StringResult;
+import org.smooks.io.sink.StringSink;
 import org.xml.sax.SAXException;
 
-import javax.xml.transform.stream.StreamSource;
+import org.smooks.io.source.StreamSource;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -42,17 +42,18 @@ public class SmooksSetup {
     }
 
     public String convert(Smooks smooks, byte[] content) {
-        StringResult stringResult = new StringResult();
-        smooks.filterSource(this.executionContext, new StreamSource(new ByteArrayInputStream(content)), stringResult);
+        StringSink stringSink = new StringSink();
+        smooks.filterSource(this.executionContext, new StreamSource(new ByteArrayInputStream(content)), stringSink);
+        smooks.filterSource(new StreamSource(new ByteArrayInputStream(content)));
         smooks.close();
-        return stringResult.getWriter().toString();
+        return stringSink.getWriter().toString();
     }
 
     public String createAndConvert(Smooks smooks, byte[] content) {
-        StringResult stringResult = new StringResult();
+        StringSink stringSink = new StringSink();
         ExecutionContext executionContext = smooks.createExecutionContext();
-        smooks.filterSource(executionContext, new StreamSource(new ByteArrayInputStream(content)), stringResult);
+        smooks.filterSource(executionContext, new StreamSource(new ByteArrayInputStream(content)), stringSink);
         smooks.close();
-        return stringResult.getWriter().toString();
+        return stringSink.getWriter().toString();
     }
 }

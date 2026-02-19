@@ -140,361 +140,361 @@
         <dependency>
             <groupId>org.smooks</groupId>
             <artifactId>smooks-core</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>smooks-edifact-cartridge</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d07a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d16b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d01a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d13a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d15a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d16a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d02a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d09a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d20a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d01b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d00a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d01c</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d06a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d97a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d10a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d19a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d06b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d94b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d11a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d13b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d05b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d18b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d05a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d17b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d02b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d98a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d15b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d94a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d95b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d18a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d07b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d14a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d21b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d03b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d19b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d20b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d96b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d17a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d98b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d04a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d12b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d00b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d93a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d97b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d04b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d96a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d99b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d08a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d12a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d09b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d10b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d99a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d03a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d14b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d21a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d08b</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d95a</classifier>
         </dependency>
         <dependency>
             <groupId>org.smooks.cartridges.edi</groupId>
             <artifactId>edifact-schemas</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
             <classifier>d11b</classifier>
         </dependency>
 
@@ -503,17 +503,17 @@
                 <dependency>
             <groupId>org.smooks.cartridges</groupId>
             <artifactId>smooks-validation-cartridge</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
         </dependency>
         <dependency>
             <groupId>org.smooks</groupId>
             <artifactId>smooks-commons</artifactId>
-            <version>2.0.0-RC4</version>
+            <version>2.1.0</version>
         </dependency>
         
         
-        implementation 'org.smooks.cartridges.edi:smooks-edifact-cartridge:2.0.0-RC4'
-        implementation 'org.smooks.cartridges:smooks-validation-cartridge:2.0.0-RC4'
+        implementation 'org.smooks.cartridges.edi:smooks-edifact-cartridge:2.1.0'
+        implementation 'org.smooks.cartridges:smooks-validation-cartridge:2.1.0'
         -->
         <dependency>
             <groupId>org.jdom</groupId>

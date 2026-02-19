@@ -4,7 +4,7 @@ import org.apache.daffodil.japi.Diagnostic;
 import org.smooks.Smooks;
 import org.smooks.api.ExecutionContext;
 
-import javax.xml.transform.stream.StreamSource;
+import org.smooks.io.source.StreamSource;
 import java.io.ByteArrayInputStream;
 import java.util.List;
 
