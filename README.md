@@ -44,14 +44,6 @@ EdiConversionService.java
 | setMessagetypes(Array[String]) | ORDERS                                                       | Set mutliple Messagetypes which are part of the desired directory |
 |setEncoding(String)| Default: UTF-8                                               | Set the character encoding for the input EDI stream               |
 
-   Method	Parameter	Description
-   setFileName(String)	Default: none	Path to message which should be converted
-   setEngine(bool)	Default: true	True/Parser: Edifact=>XML; False/Unparser: XML=>Edifact
-   setDirectory(String)	Default: d01b	Set the UN/EDIFACT specific Directory of input.
-   setMessagetypes(Array[String])	Default: ORDERS	Set mutliple Messagetypes which are part of the desired directory.
-   setValidate(bool)	Default: true	Enables/Disables strict EDI schema validation during conversion.
-   setEncoding(String)	Default: UTF-8	Set the character encoding for the input EDI stream.
-
 # Java Standalone
 ## 1. Prerequisites
 
