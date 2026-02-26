@@ -137,7 +137,7 @@ public class EdifactConverter implements ConverterAbstract {
     }
 
     @Override
-    public void runEngine(String filename, boolean engine, boolean config, EngineExecuter engineExecuter) {
+    public String runEngine(String filename, boolean engine, boolean config, EngineExecuter engineExecuter) {
         List<String> result;
         String userDir = System.getProperty("user.dir");
         new File(userDir, "output").mkdir();
@@ -193,19 +193,20 @@ public class EdifactConverter implements ConverterAbstract {
         }
         StringBuilder stringBuilder = new StringBuilder();
         result.forEach(e -> stringBuilder.append(e).append("\n"));
+        String output = stringBuilder.toString();
         log.info("RESULT");
-        log.info(stringBuilder.toString());
+        log.info(output);
         log.info("Default Result Path: " + outputPath);
         BufferedWriter writer = null;
         try {
             writer = new BufferedWriter(new FileWriter(outputPath.toString()));
-            writer.write(stringBuilder.toString());
+            writer.write(output);
             writer.flush();
             writer.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
+        return output;
     }
     
 }

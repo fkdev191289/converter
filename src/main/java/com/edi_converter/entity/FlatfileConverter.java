@@ -63,7 +63,7 @@ public class FlatfileConverter implements ConverterAbstract {
     }
 
     @Override
-    public void runEngine(String messageFilePath, boolean engine, boolean config, EngineExecuter engineExecuter) {
-
+    public String runEngine(String messageFilePath, boolean engine, boolean config, EngineExecuter engineExecuter) {
+        return null;
     }
 }

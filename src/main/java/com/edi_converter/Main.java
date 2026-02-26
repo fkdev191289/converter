@@ -199,7 +199,7 @@ public class Main {
             }
         if(!argsConsumer.containsKey("hotfolder")){
             converter.setFileName(argsConsumer.get("filename"));
-            converter.runEngine();
+            String output = converter.runEngine();
             } else {
                 log.info("Watch Service is activated. Please save/upload you message in Directory: " +argsConsumer.get("hotfolder"));
                 new WatchServiceCall(converter, argsConsumer.get("hotfolder"));

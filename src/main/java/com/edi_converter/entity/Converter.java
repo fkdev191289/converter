@@ -73,7 +73,7 @@ public class Converter {
         converterAbstract.setupEngine(engine, config, engineExecuter);
     }
 
-    public void runEngine() {
-        converterAbstract.runEngine(fileName, engine, config, engineExecuter);
+    public String runEngine() {
+        return converterAbstract.runEngine(fileName, engine, config, engineExecuter);
     }
 }

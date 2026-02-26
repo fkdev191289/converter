@@ -6,9 +6,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
@@ -18,14 +15,13 @@ class MainTest {
         EdifactConverter edifactConverter = new EdifactConverter();
         Converter converter = new Converter();
         edifactConverter.setDirectory("d01b");
-        List<String> messagetypes = Arrays.asList("ORDERS");
-        edifactConverter.setMessagetypes(messagetypes);
+        edifactConverter.setMessagetypes(Arrays.asList("ORDERS"));
         edifactConverter.setValidate(false);
         converter.setConverterAbstract(edifactConverter);
         converter.setEngine(true);
         converter.setupEngine();
         converter.setFileName("src/test/resources/testfiles/edifact/edifact-d01b-ORDERS.edi");
-        converter.runEngine();
+        String result = converter.runEngine();
     }
 
     @DisplayName("Convert XML:Edifact to Edifact")
@@ -34,14 +30,13 @@ class MainTest {
         EdifactConverter edifactConverter = new EdifactConverter();
         Converter converter = new Converter();
         edifactConverter.setDirectory("d01b");
-        List<String> messagetypes = Arrays.asList("ORDERS");
-        edifactConverter.setMessagetypes(messagetypes);
+        edifactConverter.setMessagetypes(Arrays.asList("ORDERS"));
         edifactConverter.setValidate(false);
         converter.setConverterAbstract(edifactConverter);
         converter.setEngine(false);
         converter.setupEngine();
         converter.setFileName("src/test/resources/testfiles/xml/edifact-d01b-ORDERS.xml");
-        converter.runEngine();
+        String result = converter.runEngine();
     }
 
     @DisplayName("Test Valid Edifact")
@@ -50,14 +45,13 @@ class MainTest {
         EdifactConverter edifactConverter = new EdifactConverter();
         Converter converter = new Converter();
         edifactConverter.setDirectory("d01b");
-        List<String> messagetypes = Arrays.asList("ORDERS");
-        edifactConverter.setMessagetypes(messagetypes);
+        edifactConverter.setMessagetypes(Arrays.asList("ORDERS"));
         edifactConverter.setValidate(true);
         converter.setConverterAbstract(edifactConverter);
         converter.setEngine(true);
         converter.setupEngine();
         converter.setFileName("src/test/resources/testfiles/edifact/edifact-d01b-ORDERS-valid.edi");
-        converter.runEngine();
+        String result = converter.runEngine();
     }
 
     @DisplayName("Test Invalid Edifact")
@@ -66,13 +60,12 @@ class MainTest {
         EdifactConverter edifactConverter = new EdifactConverter();
         Converter converter = new Converter();
         edifactConverter.setDirectory("d01b");
-        List<String> messagetypes = Arrays.asList("ORDERS");
-        edifactConverter.setMessagetypes(messagetypes);
+        edifactConverter.setMessagetypes(Arrays.asList("ORDERS"));
         edifactConverter.setValidate(true);
         converter.setConverterAbstract(edifactConverter);
         converter.setEngine(true);
         converter.setupEngine();
         converter.setFileName("src/test/resources/testfiles/edifact/edifact-d01b-ORDERS-invalid.edi");
-        converter.runEngine();
+        String result = converter.runEngine();
     }
 }
